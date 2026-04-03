@@ -1,0 +1,11 @@
+# Production profile for GitHub Pages user site
+# Usage:
+#   bundle exec jekyll serve --config _config.yml,_config.github-pages.yml
+#   bundle exec jekyll build --config _config.yml,_config.github-pages.yml
+
+url: https://hban29.github.io
+baseurl:
+
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
