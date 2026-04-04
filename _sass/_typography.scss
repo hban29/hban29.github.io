@@ -4,6 +4,36 @@
 
 @use "variables" as v;
 
+body {
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.72;
+  letter-spacing: 0.002em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Source Serif 4", Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: clamp(2rem, 3vw, 2.7rem);
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: clamp(1.45rem, 2.2vw, 1.95rem);
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: clamp(1.18rem, 1.8vw, 1.4rem);
+}
+
 p,
 h1,
 h2,
@@ -17,6 +47,48 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+}
+
+.post article {
+  p,
+  li {
+    max-width: 74ch;
+  }
+}
+
+.post-header {
+  .post-title {
+    max-width: 22ch;
+  }
+}
+
+.post .post-description,
+.post-home .desc {
+  font-size: 1rem;
+  color: var(--global-text-color-light);
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    font-size: 1rem;
+    line-height: 1.68;
+  }
+
+  h1 {
+    line-height: 1.12;
+  }
+
+  h2 {
+    line-height: 1.18;
+  }
+
+  .post article {
+    p,
+    li {
+      max-width: 100%;
+    }
+  }
 }
 
 hr {

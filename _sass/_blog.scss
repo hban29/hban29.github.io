@@ -49,6 +49,13 @@
     list-style: none;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    border-radius: 10px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      background-color: color-mix(in srgb, var(--global-theme-color) 4%, transparent);
+      transform: translateY(-1px);
+    }
 
     .post-meta {
       color: var(--global-text-color-light);
