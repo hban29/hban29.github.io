@@ -222,6 +222,11 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-scholar
+  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-paginate-v2
 
 # Sitemap settings
 defaults:
