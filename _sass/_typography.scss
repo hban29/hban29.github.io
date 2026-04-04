@@ -6,11 +6,17 @@
 
 body {
   font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 1.02rem;
+  font-size: clamp(1rem, 0.96rem + 0.2vw, 1.08rem);
   line-height: 1.72;
   letter-spacing: 0.002em;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
 }
 
 h1,
@@ -89,6 +95,10 @@ strong {
       max-width: 100%;
     }
   }
+
+  table {
+    font-size: 0.93rem;
+  }
 }
 
 hr {
@@ -119,6 +129,16 @@ table.table a {
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
+}
+
+p a,
+li a,
+dd a,
+dt a,
+blockquote a {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.14em;
 }
 
 .table-dark {

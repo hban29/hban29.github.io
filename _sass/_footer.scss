@@ -32,4 +32,10 @@ footer.sticky-bottom {
   .container {
     text-align: center;
   }
+
+  a {
+    text-decoration-line: underline;
+    text-underline-offset: 0.14em;
+    text-decoration-thickness: 0.08em;
+  }
 }

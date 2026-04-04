@@ -195,6 +195,40 @@
   }
 }
 
+@media (max-width: 991.98px) {
+  .navbar.navbar-light {
+    .navbar-nav {
+      padding-top: 0.35rem;
+      padding-bottom: 0.35rem;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      padding: 0.6rem 0.4rem;
+    }
+  }
+
+  .navbar .container {
+    align-items: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar.navbar-light {
+    .navbar-brand {
+      font-size: 1rem;
+      max-width: 78%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      padding: 0.58rem 0.3rem;
+      font-size: 0.96rem;
+    }
+  }
+}
+
 #search-toggle {
   padding: 0;
   border: 0;

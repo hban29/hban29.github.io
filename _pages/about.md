@@ -7,6 +7,8 @@ subtitle: Professor, Department of Electrical Engineering and Computer Science, 
 profile:
   align: right
   image: djouadi.jpg
+  width: 1368
+  height: 2100
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>MK640</p>
