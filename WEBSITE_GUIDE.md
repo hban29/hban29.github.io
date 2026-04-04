@@ -243,7 +243,7 @@ Recommended fields (for richer output):
 
 Where each field appears:
 
-- Full list on `/publications/` via `{% bibliography %}`
+- Full list on `/publications/` via `{% raw %}{% bibliography %}{% endraw %}`
 - Homepage featured list if `selected = {true}`
 
 ### D. Adding News/Updates

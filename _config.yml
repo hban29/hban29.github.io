@@ -178,6 +178,9 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
+  - AGENTS.md
+  - ANALYTICS.md
+  - CLAUDE.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -193,9 +196,13 @@ exclude:
   - package-lock.json
   - _pages/about_einstein.md
   - purgecss.config.js
+  - QUICKSTART.md
   - README.md
   - readme_preview/
+  - SEO.md
+  - TROUBLESHOOTING.md
   - vendor
+  - WEBSITE_GUIDE.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -222,11 +229,6 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-scholar
-  - jekyll-feed
-  - jekyll-sitemap
-  - jemoji
-  - jekyll-paginate-v2
 
 # Sitemap settings
 defaults:
